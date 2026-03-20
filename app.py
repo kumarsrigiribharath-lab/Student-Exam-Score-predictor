@@ -39,12 +39,12 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("🧍 Student Basic Details")
 
-    hours = st.number_input("Hours Studied", min_value=0, max_value=24, value=None, placeholder="e.g. 5")
-    attendance = st.number_input("Attendance (%)", min_value=0, max_value=100, value=None, placeholder="e.g. 80")
-    sleep = st.number_input("Sleep Hours", min_value=0.0, max_value=12.0, value=None, placeholder="e.g. 6-8")
-    previous = st.number_input("Previous Score", min_value=0, max_value=100, value=None, placeholder="e.g. 70")
-    tutoring = st.number_input("Tutoring Sessions", min_value=0, max_value=10, value=None, placeholder="e.g. 2")
-    physical = st.number_input("Physical Activity", min_value=0, max_value=20, value=None, placeholder="e.g. 3")
+    hours = st.number_input("Hours Studied", min_value=0, max_value=24, value=0, placeholder="e.g. 5")
+    attendance = st.number_input("Attendance (%)", min_value=0, max_value=100, value=0, placeholder="e.g. 80")
+    sleep = st.number_input("Sleep Hours", min_value=0.0, max_value=12.0, value=0, placeholder="e.g. 6-8")
+    previous = st.number_input("Previous Score", min_value=0, max_value=100, value=0, placeholder="e.g. 70")
+    tutoring = st.number_input("Tutoring Sessions", min_value=0, max_value=10, value=0, placeholder="e.g. 2")
+    physical = st.number_input("Physical Activity", min_value=0, max_value=20, value=0, placeholder="e.g. 3")
     gender = st.selectbox("Gender", ["Select","Male","Female"])
     distance = st.selectbox("Distance from Home", ["Select","Near","Moderate","Far"])
 
