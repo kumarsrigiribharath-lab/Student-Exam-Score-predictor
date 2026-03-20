@@ -21,7 +21,7 @@ body {
 """, unsafe_allow_html=True)
 
 try:
-    model = pickle.load(open("model.pkl", "rb"))
+    model = pickle.load(open("model.pkl", "wb"))
 except Exception as e:
     st.error(f"Model loading error:{e}")
 st.title("🎓 Student Exam Score Predictor")
