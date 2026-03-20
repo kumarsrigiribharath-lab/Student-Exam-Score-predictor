@@ -20,7 +20,10 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-model = pickle.load(open("model.pkl", "rb"))
+try:
+    model = pickle.load(open("model.pkl", "rb"))
+except Exception as e:
+    st.error(f"Model loading error:{e}")
 st.title("🎓 Student Exam Score Predictor")
 st.markdown("### Enter details to predict exam score:")
 st.markdown("---")
