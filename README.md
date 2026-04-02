@@ -25,6 +25,8 @@ pip install -r requirements.txt
 streamlit run app.py
 https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-cloudpagehero#:~:text=student%2Dexam%2Dscore%2Dpredictor%20%E2%88%99%20main%20%E2%88%99%20app.py
 
+https://student-exam-score-predictor-exa4ez69vmuuk9e9jhg58m.streamlit.app/
+
 # Screenshots:
 
 <img width="1827" height="852" alt="input_data" src="https://github.com/user-attachments/assets/e312317c-81ca-4786-a026-a005c0c4085d" />
