@@ -23,6 +23,7 @@ This project predicts student exam performance using Machine Learning based on a
 
 pip install -r requirements.txt
 streamlit run app.py
+https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-cloudpagehero#:~:text=student%2Dexam%2Dscore%2Dpredictor%20%E2%88%99%20main%20%E2%88%99%20app.py
 
 # Screenshots:
 
