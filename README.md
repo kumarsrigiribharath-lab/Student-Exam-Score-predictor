@@ -42,7 +42,6 @@ https://student-exam-score-predictor-exa4ez69vmuuk9e9jhg58m.streamlit.app/
 Predicts student exam score based on user inputs.
 
 # Project Preview:
-# Input Interface & Output Prediction:
 
 <img width="1827" height="852" alt="input_data" src="https://github.com/user-attachments/assets/e312317c-81ca-4786-a026-a005c0c4085d" />
 <img width="1801" height="900" alt="output_predict" src="https://github.com/user-attachments/assets/3fff8e52-20ea-422a-97de-5625bbda31cd" />
