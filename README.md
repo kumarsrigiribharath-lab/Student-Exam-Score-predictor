@@ -1,45 +1,102 @@
 # Student Exam Score Predictor:
 
-# Project Overview:
+# Overview:
 
-This project predicts student exam performance using Machine Learning based on academic, personal, and environmental factors. It helps understand how different factors influence student success.
+A Machine Learning web application that predicts student exam performance based on academic, personal, and environmental factors.
+This project demonstrates how different inputs influence student success using a regression-based approach.
 
-# Features:
-
-* Uses 19 input features
-* Built with Linear Regression
-* Achieved R² Score: **0.77**
-* Interactive web app using Streamlit
-* User-friendly input selection (Low/Medium/High options)
-
-# Technologies Used:
-
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Streamlit
-
-# Screenshots:
-
-<img width="1827" height="852" alt="input_data" src="https://github.com/user-attachments/assets/e312317c-81ca-4786-a026-a005c0c4085d" />
-<img width="1801" height="900" alt="output_predict" src="https://github.com/user-attachments/assets/3fff8e52-20ea-422a-97de-5625bbda31cd" />
-
-# Live DEMO:
+# Live Demo:
 
 https://student-exam-score-predictor-exa4ez69vmuuk9e9jhg58m.streamlit.app/
 
-# Use Case:
+# Key Features:
 
-* Helps students estimate performance
-* Useful for educators to analyze student factors
-* Demonstrates real-world ML application
+- Predicts student exam score using Machine Learning
+- Uses 19 input features
+- Interactive Streamlit web interface
+- User-friendly input selection (Low / Medium / High)
+- Real-time prediction output
 
-# Output:
+# Model Details:
+
+- Algorithm: Linear Regression
+- Evaluation Metric: R² Score
+- Achieved R² Score: 0.77
+
+# Tech Stack:
+
+- Python
+- Pandas and NumPy
+- Scikit-learn
+- Streamlit
+
+# How It Works:
+
+1. User selects input features
+2. Data is processed and encoded
+3. Model predicts exam score
+4. Result is displayed instantly
+
+# Prediction Output:
 
 Predicts student exam score based on user inputs.
 
-# Future Improvements:
+# Project Preview:
+# Input Interface:
 
-* Add data visualization dashboard
-* Try advanced ML models (Random Forest, XGBoost)
-* Deploy as a web application
+<img width="1827" height="852" alt="input_data" src="https://github.com/user-attachments/assets/e312317c-81ca-4786-a026-a005c0c4085d" />
+
+# Output Prediction:
+
+<img width="1801" height="900" alt="output_predict" src="https://github.com/user-attachments/assets/3fff8e52-20ea-422a-97de-5625bbda31cd" />
+
+# Use Case:
+
+- Helps students estimate their performance
+- Useful for educators to analyze student factors
+- Demonstrates a real-world Machine Learning application
+
+# Project Structure:
+
+- "app.py" – Streamlit web application
+- "train.py" – Model training script
+- "requirements.txt" – Project dependencies
+- "README.md" – Project documentation
+- "model/"
+  - "model.pkl" – Trained model
+- "data/"
+  - "dataset.csv" – Input dataset
+- "images/"
+  - "input.png" – Input interface screenshot
+  - "output.png" – Prediction result screenshot
+
+# How to Run Locally:
+
+* git clone https://github.com/your-username/your-repo-name.git
+* cd your-repo-name
+* pip install -r requirements.txt
+* python train.py
+* streamlit run app.py
+
+# Key Learnings:
+
+- Regression modeling using Linear Regression
+- Feature preprocessing and encoding
+- Building interactive ML applications
+- Deploying ML models using Streamlit
+
+# Future Enhancements:
+
+- Add data visualization dashboard
+- Experiment with advanced models (Random Forest, XGBoost)
+- Improve prediction accuracy
+- Enhance UI/UX
+
+# Author:
+
+Srigiribharath K
+Aspiring Machine Learning Engineer
+
+# Support:
+
+If you find this project useful, consider giving it a star on GitHub.
